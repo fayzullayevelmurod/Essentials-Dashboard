@@ -58,7 +58,6 @@ address {
   max-width: 1920px;
   padding: 0 40px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 .main_btn {
@@ -72,6 +71,10 @@ address {
   padding: 8px 26px;
 }
 
+.header_under {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 .header_under .main_container {
   display: flex;
   align-items: stretch;
@@ -84,7 +87,6 @@ address {
 }
 .header_under .header_under_left,
 .header_under .header_under_right {
-  border: 1px solid red;
   flex: 1;
   padding: 24px 30px 24px 43px;
   border-radius: 20px;
@@ -112,4 +114,116 @@ address {
   font-size: 15px;
   font-weight: 700;
   line-height: 17px;
+}
+
+.performance .performance_title {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.performance .performance_title h6 {
+  color: rgb(128, 128, 128);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+}
+.performance .performance_title p {
+  color: rgb(51, 50, 50);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+}
+.performance .performance_cards {
+  margin-bottom: 34px;
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+}
+.performance .performance_cards .performace_card_end {
+  background: linear-gradient(-42.49deg, rgb(0, 253, 20) -56.008%, rgb(0, 166, 93) 100.682%) !important;
+}
+.performance .performance_cards .performace_card_end .performance_card_btn {
+  margin-top: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.performance .performance_cards .performace_card {
+  position: relative;
+  flex: 1;
+  padding: 35px 25px 25px 25px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.05);
+  background: rgb(255, 255, 255);
+}
+.performance .performance_cards .Graph_card {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.performance .performance_cards .performance_icon {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.performance .performance_cards .performance_card_bottom {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.performance .performance_cards .circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgb(0, 253, 20), rgb(0, 212, 85) 100%);
+}
+.performance .performance_cards .circle.red {
+  background: linear-gradient(180deg, rgb(245, 120, 98), rgb(237, 36, 37) 100%);
+}
+.performance .performance_cards h6 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+}
+.performance .performance_cards h5 {
+  margin: 15px 0;
+  font-family: "GT America", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 2%;
+}
+.performance .performance_cards p {
+  max-width: 150px;
+  color: rgb(51, 50, 50);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 1%;
+}
+.performance .performance_cards .purple {
+  color: rgb(225, 0, 118);
+}
+.performance .performance_cards .cobalt {
+  color: rgb(124, 28, 255);
+}
+.performance .performance_cards .red {
+  color: rgb(229, 0, 0);
+}
+.performance .performance_cards .blue {
+  color: rgb(21, 71, 237);
+}
+.performance .performance_cards .green {
+  color: rgb(1, 126, 71);
+}
+.performance .performance_cards .white {
+  color: rgb(255, 255, 255);
 }/*# sourceMappingURL=style.css.map */
