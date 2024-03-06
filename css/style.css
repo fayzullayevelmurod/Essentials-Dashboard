@@ -29,6 +29,8 @@ html {
 }
 
 body {
+  font-family: "Arial", sans-serif;
+  background-color: #f6f6f6;
   font-style: normal;
 }
 
@@ -55,4 +57,59 @@ address {
 .main_container {
   max-width: 1920px;
   padding: 0 40px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.main_btn {
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  border-radius: 20px;
+  background: linear-gradient(151.03deg, rgb(0, 166, 93) -8.618%, rgb(0, 253, 20) 199.635%);
+  padding: 8px 26px;
+}
+
+.header_under .main_container {
+  display: flex;
+  align-items: stretch;
+  gap: 30px;
+}
+.header_under .header_under_left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header_under .header_under_left,
+.header_under .header_under_right {
+  border: 1px solid red;
+  flex: 1;
+  padding: 24px 30px 24px 43px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.6);
+}
+.header_under .header_under_left h3,
+.header_under .header_under_right h3 {
+  color: rgb(51, 50, 50);
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 9px;
+}
+.header_under .header_under_left p,
+.header_under .header_under_right p {
+  color: rgb(51, 50, 50);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 10px;
+}
+.header_under .header_under_left h6,
+.header_under .header_under_right h6 {
+  color: rgb(51, 50, 50);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17px;
 }/*# sourceMappingURL=style.css.map */
