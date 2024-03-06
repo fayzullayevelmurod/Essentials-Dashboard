@@ -71,6 +71,11 @@ address {
   padding: 8px 26px;
 }
 
+header .main_container .header_block {
+  background: rgb(217, 217, 217);
+  height: 134px;
+}
+
 .header_under {
   margin-top: 20px;
   margin-bottom: 30px;
@@ -84,6 +89,11 @@ address {
   display: flex;
   align-items: center;
   gap: 30px;
+}
+.header_under .header_under_left img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
 }
 .header_under .header_under_left,
 .header_under .header_under_right {

@@ -109,10 +109,22 @@ address {
     padding: 8px 26px;
 }
 
+// header
+header {
+    .main_container {
+        .header_block {
+            background: rgb(217, 217, 217);
+            height: 134px;
+        }
+    }
+}
+// header
+
 // header_under
 .header_under {
     margin-top: 20px;
     margin-bottom: 30px;
+
     .main_container {
         display: flex;
         align-items: stretch;
@@ -122,6 +134,12 @@ address {
     .header_under_left {
         @include flex-center();
         gap: 30px;
+
+        img {
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+        }
     }
 
     .header_under_left,
