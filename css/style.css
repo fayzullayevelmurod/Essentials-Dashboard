@@ -255,14 +255,18 @@ header .main_container .header_block {
 .settings .settings_left {
   flex: 2;
 }
-.settings .settings_left .settings_in {
+.settings .settings_left .settings_in .settings_top {
   display: flex;
+  align-items: stretch;
   gap: 20px;
 }
-.settings .settings_left .settings_block {
-  flex: 1;
+.settings .settings_left .settings_in .settings_bottom {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
 }
 .settings .settings_left .settings_block_top {
+  flex: 1;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
@@ -277,11 +281,6 @@ header .main_container .header_block {
   font-weight: 700;
   line-height: 20px;
   margin-bottom: 34px;
-}
-.settings .settings_left .settings_block_bottom {
-  display: flex;
-  align-items: stretch;
-  gap: 20px;
 }
 .settings .settings_left .settings_card {
   position: relative;

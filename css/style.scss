@@ -312,6 +312,7 @@ header {
 // settings
 .settings {
     padding-bottom: 50px;
+
     .main_container {
         display: flex;
         gap: 56px;
@@ -329,15 +330,21 @@ header {
         flex: 2;
 
         .settings_in {
-            display: flex;
-            gap: 20px;
-        }
+            .settings_top {
+                display: flex;
+                align-items: stretch;
+                gap: 20px;
+            }
 
-        .settings_block {
-            flex: 1;
+            .settings_bottom {
+                display: flex;
+                gap: 20px;
+                align-items: stretch;
+            }
         }
 
         .settings_block_top {
+            flex: 1;
             @include flex-center();
             margin-bottom: 20px;
             justify-content: space-between;
@@ -352,12 +359,6 @@ header {
                 line-height: 20px;
                 margin-bottom: 34px;
             }
-        }
-
-        .settings_block_bottom {
-            display: flex;
-            align-items: stretch;
-            gap: 20px;
         }
 
         .settings_card {
