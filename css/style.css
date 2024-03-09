@@ -190,12 +190,14 @@ header .main_container .header_block {
   gap: 8px;
 }
 .performance .performance_cards .circle {
+  flex-shrink: 0;
   width: 14px;
   height: 14px;
   border-radius: 50%;
   background: linear-gradient(180deg, rgb(0, 253, 20), rgb(0, 212, 85) 100%);
 }
 .performance .performance_cards .circle.red {
+  flex-shrink: 0;
   background: linear-gradient(180deg, rgb(245, 120, 98), rgb(237, 36, 37) 100%);
 }
 .performance .performance_cards h6 {

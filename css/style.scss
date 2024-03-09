@@ -246,6 +246,7 @@ header {
         }
 
         .circle {
+            flex-shrink: 0;
             width: 14px;
             height: 14px;
             border-radius: 50%;
@@ -253,6 +254,7 @@ header {
         }
 
         .circle.red {
+            flex-shrink: 0;
             background: linear-gradient(180.00deg, rgb(245, 120, 98),rgb(237, 36, 37) 100%);
         }
 
